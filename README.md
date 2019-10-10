@@ -1,16 +1,22 @@
-# Example for using the agrirouter redirect URL to handle multiple environments
+# agrirouter redirection server
 
+## What is this repository about
 
+When having more than 2 environments of your application, you might run into the issue, that those environments wait for agrirouter authorization response at different URLs. To fix this, here is an example microservice of a redirection Server
+
+## What is agrirouter
+
+Please refer to <https://www.my-agrirouter.com> for mor information.
 
 ## Setup in agrirouter
 
-Add a redirect URL to your application: 
+* Add a redirect URL to your application: 
 
 ![image](./images/config.png "Image")
 
 This URL should point to your redirection microservice.
 
-Configure all Extensions by changing the variable "config" in index.json.
+* Configure all Extensions by changing the variable "config" in index.json.
 
 ## Setup the redirect microservice 
 
@@ -19,7 +25,7 @@ Configure all Extensions by changing the variable "config" in index.json.
 
 Example:
 
-Your server URL: http://dev4ag.com:3000/
+Your server URL: <http://dev4ag.com:3000/>
 
 Extension: prod
 
