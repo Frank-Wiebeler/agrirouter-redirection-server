@@ -9,11 +9,11 @@ const config = [
     },
     { 
         extension : "test",
-        url : "https://test.dev4ag.com:8080/do_auth?"
+        url : "https://test.dev4ag.com:8080/auth?"
     },
     { 
         extension : "prod",
-        url : "https://prod.dev4agriculture.de:8080/myauth?"
+        url : "https://prod.dev4agriculture.de:8080/auth?"
     },
 
 ]

@@ -34,6 +34,8 @@ Extension: prod
 
 Authorization URL: .....&redirect_uri=http%3A%2F%2Fdev4ag.com%3A3000%2Fprod
 
+Please recognize, that the URL is URL-Encoded. For a fast test, see [this online tool](https://www.urlencoder.org/).
+
 ## How it works
 
 When you call the Authoriation URL, agrirouter will redirect you to your redirection server. This server then checks the extension you added to the URL and redirects you again to a free configurable URL, including the full GET Queue received from agrirouter.
